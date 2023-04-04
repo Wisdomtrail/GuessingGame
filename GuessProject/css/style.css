@@ -1,0 +1,450 @@
+.mainContainer{
+    margin-top: 2.5cm;
+    border: 3px unset;
+    border-radius: 50px;
+    display: grid;
+    height: 50vh;
+    width: 40vw;
+    background-image: url(https://th.bing.com/th/id/OIP.T43pSBrqZ3csUUcvLKivtwHaEK?w=316&h=180&c=7&r=0&o=5&pid=1.7);
+
+}
+.container{
+    font-size:25px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Guess{
+    color: aliceblue;
+    background-color: black;
+    height: 6vh;
+    width: 8vw;
+    margin-left: 5px;
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+}
+.inst{
+    font-size:15px;
+    color: white; 
+    margin-top: 1cm;
+}
+.lastInput{
+    padding-top: 2cm;
+    
+}
+#playGame{
+    background-color: rgb(252, 0, 0);
+    color: rgb(0, 0, 0);
+    height: 5vh;
+    width: 3cm;
+}
+.exitGame{
+    background-color: rgb(255, 75, 105);
+    height: 5vh;
+    width: 3cm;  
+}
+.playGame:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.exitGame:hover{
+    background-color: black;
+    color: white;
+}
+
+.Guess:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (width: 360px){
+    .mainContainer{
+        width: 80vw;
+    }
+
+    #Guess{
+        color: aliceblue;
+        background-color: black;
+        height: 5vh;
+        width: 15vw;
+        margin-left: 5px;
+    }
+
+    
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 6vh;
+        width: 2cm;
+    }
+    
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 6vh;
+        width: 2cm;  
+    }
+}
+
+@media screen and (width: 441px) { 
+    .mainContainer{
+        height: 10cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 6vh;
+        width: 2cm;
+    }
+
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 6vh;
+        width: 2cm;
+    }
+
+    .inputContainer input{
+        width: 2cm;
+    }
+    
+    #Guess{
+        color: aliceblue;
+        background-color: black;
+        height: 5vh;
+        width: 12vw;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (width: 375px) {
+    .mainContainer{
+        width: 6cm;
+    }
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 6vh;
+        width: 2cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 6vh;
+        width: 2cm;
+    }
+
+    .inputContainer input{
+        width: 2cm;
+    }
+
+    #Guess{
+        color: aliceblue;
+        background-color: black;
+        height: 5vh;
+        width: 14vw;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (width: 414px) {
+    .mainContainer{
+        width: 7cm;
+        height: 9cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 6vh;
+        width: 2cm;
+    }
+
+    #Guess{
+        color: aliceblue;
+        background-color: black;
+        height: 5vh;
+        width: 14vw;
+        margin-left: 5px;
+    }
+
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 6vh;
+        width: 2cm;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+    .mainContainer{
+        width: 5.5cm;
+        height: 9cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 6vh;
+        width: 2cm;
+    }
+
+    #Guess{
+        color: aliceblue;
+        background-color: black;
+        height: 4vh;
+        width: 18vw;
+        margin-left: 5px;
+    }
+
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 6vh;
+        width: 2cm;
+    }
+    .inputContainer input{
+        width: 3cm;
+        height: 0.5cm;
+    }
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 599px) {
+    .mainContainer{
+        width: 7cm;
+        height: 9cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 6vh;
+        width: 2cm;
+    }
+
+    .inputContainer input{
+        width: 3cm;
+        height: 0.5cm;
+    }
+
+    #Guess{
+        color: aliceblue;
+        background-color: black;
+        height: 4vh;
+        width: 14vw;
+        margin-left: 5px;
+    }
+
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 6vh;
+        width: 2cm;
+    }
+}
+
+@media screen and (width: 600px) {
+    .mainContainer{
+        width: 8cm;
+        height: 10cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 6vh;
+        width: 2cm;
+    }
+
+    #Guess{
+        color: aliceblue;
+        background-color: black;
+        height: 5vh;
+        width: 14vw;
+        margin-left: 5px;
+    }
+
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 6vh;
+        width: 2cm;
+    }
+}
+
+@media screen and (width: 820px) {
+    .mainContainer{
+        width: 10cm;
+        height: 10cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 9vh;
+        width: 2cm;
+    }
+
+    #Guess{
+        color: aliceblue;
+        background-color: black;
+        height: 5vh;
+        width: 14vw;
+        margin-left: 5px;
+    }
+
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 4vh;
+        width: 2cm;
+    }
+}
+
+@media screen and (min-width: 821px) and (max-width: 900px) {
+        .mainContainer{
+        width: 10cm;
+        height: 10cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 9vh;
+        width: 2cm;
+    }
+
+    #Guess{
+        color: aliceblue;
+        background-color: black;
+        height: 5vh;
+        width: 14vw;
+        margin-left: 5px;
+    }
+
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 4vh;
+        width: 2cm;
+    }
+}
+
+@media screen and (width: 601px) {
+    .mainContainer{
+        width: 8cm;
+        height: 10cm;
+    }
+
+    #Guess{
+        width: 2cm;
+    }
+
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 7vh;
+        width: 2cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 7vh;
+        width: 2cm;
+    }
+}
+
+@media screen and (width: 912px) {
+    .mainContainer{
+        width: 10cm;
+        height: 12cm;
+    }
+
+    #Guess{
+        width: 2cm;
+    }
+
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 4vh;
+        width: 2cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 4vh;
+        width: 2cm;
+    }
+}
+
+@media screen and (width: 768px) {
+    .mainContainer{
+        width: 10cm;
+        height: 12cm;
+    }
+
+    #Guess{
+        width: 2cm;
+    }
+
+    #playGame{
+        margin-top: 2cm;
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 4vh;
+        width: 2cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 4vh;
+        width: 2cm;
+    }
+}
+
+
+@media screen and (width: 280px) {
+    .mainContainer{
+        width: 7cm;
+        height: 9cm;
+    }
+
+    #Guess{
+        width: 2cm;
+    }
+
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 7vh;
+        width: 2cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 7vh;
+        width: 2cm;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 350px) {
+    .mainContainer{
+        width: 7cm;
+        height: 9cm;
+    }
+
+    #Guess{
+        width: 2cm;
+    }
+
+    #playGame{
+        background-color: rgb(46, 0, 252);
+        color: rgb(255, 255, 255);
+        height: 7vh;
+        width: 2cm;
+    }
+
+    .exitGame{
+        background-color: rgb(184, 171, 171);
+        height: 7vh;
+        width: 2cm;
+    }
+}
